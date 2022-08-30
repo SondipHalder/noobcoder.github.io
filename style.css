@@ -1,0 +1,317 @@
+/* defult_css */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* full_website_css_st */
+.full-web {
+    max-width: 1260px;
+    margin: auto;
+    text-align: center;
+}
+
+/* 
+full_website_css_ed */
+
+/* header part css */
+/* .header_part{} */
+
+.header_section{}
+.header_part{
+    height: 120px;
+    width: 1260px;
+    margin: auto;
+    background-color: black;
+
+}
+.header_part ul{
+    list-style: none;
+}
+.header_part ul li{
+    display: inline-block;
+    margin-left: -5px;
+}
+.header_part ul li a{
+    display: inline-block;
+    color: rgb(199, 199, 199);
+    text-decoration:
+    none;
+    font-size: 22px;
+    padding: 47px 25px;
+    transition: .2s;
+}
+.header_part ul li a:hover{
+    color: white;
+}
+/* 2nd dropdown css st */
+.header_part ul li{
+    position: relative;
+}
+.header_part ul li ul.first_dropdown{
+    position: absolute;
+    top: 100%;
+    left: -42px;
+    width: 200px;
+    background-color: black;
+    /* hover part */
+    visibility: hidden;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top center;
+    transition: .5s;
+}
+.header_part ul li .first_dropdown li{
+    display: block;
+    margin: 0px;
+    border-bottom: 1px solid gray;
+    
+}
+.header_part ul li .first_dropdown li:first-child{
+    border-top: 3px solid blue;
+}
+.header_part ul li .first_dropdown li a{
+    display: inline-block;
+    padding: 10px 68px;
+    transition: .5s;
+}
+.header_part ul li .first_dropdown li a:hover{
+    background-color: #6095E3;
+}
+/* 1st dp hover */
+
+.header_part ul li:hover .first_dropdown{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+/* 2nd dropdown css end */
+
+/* 3rd_dropdown */
+.header_part ul li .first_dropdown li .Third_dropdown{
+    position: absolute;
+    top: -3px;
+    left: 100%;
+    height: auto;
+    width: 200px;
+    background: #000;
+    visibility: hidden;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top center;
+    transition: .5s;
+}
+.header_part ul li .first_dropdown li .Third_dropdown li{}
+.header_part ul li .first_dropdown li .Third_dropdown li a{
+    padding: 10px 72px;
+}
+.header_part ul li .first_dropdown li .Third_dropdown li a:hover{}
+/* third dropdown hover */
+.header_part ul li .first_dropdown li:hover .Third_dropdown{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+} 
+/* banner part css st */
+/* banner section */
+/* .banner{} */
+
+/* banner div */
+.banner-part {
+    background-image: url(https://asadullah2451.github.io/ClassAssignment-12/photo-jpg.jpg);
+    padding: 300px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* slider div */
+.banner-part h1 {
+    display: inline-block;
+    background-color: rgba(232, 223, 223, 0.195);
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: 3px solid #fff;
+}
+
+/* Slider Bubtitle div */
+.banner-part p {
+    background: rgba(255, 255, 255, 80%);
+    font-size: 25px;
+    width: 800px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* banner link hover div */
+.banner-part a {
+    display: inline-block;
+    color: white;
+    background: rgba(255, 0, 0, 50%);
+    border: 3px solid red;
+    padding: 10px 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+/* banner link hover part */
+.banner-part a:hover {
+    background: white;
+    color: black;
+}
+
+/* banner part css end */
+
+/* banner_conant st */
+/* .banner_conant {} */
+
+.bannner_con {
+    border: 1px solid #ddd;
+    padding: 20px 69px;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.bannner_con h1 {
+    font-size: 30px;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+}
+
+.bannner_con ul {
+    text-align: center;
+    margin-top: 30px;
+    list-style-position: inside;
+}
+
+.bannner_con ul li {
+    margin-bottom: 25px;
+}
+
+/* from part */
+.input_from {
+    background: #F2F2F2;
+    text-align: center;
+    height: 100px;
+    margin: 60px 0;
+    line-height: 100px;
+}
+
+.nd {
+    list-style-position: outside;
+}
+
+.ft {
+    border: none;
+    border: 1px solid red;
+    width: 400px;
+    height: 34px;
+    padding-left: 10px;
+    transition: .5s;
+
+}
+
+.ft:hover {
+    border: 1px solid red;
+
+}
+
+.dm {
+    margin-left: -4px;
+    color: white;
+    background: red;
+    border: none;
+    width: 120px;
+    height: 36px;
+    transition: .5s;
+}
+
+.dm:hover {
+    background-color: #fff;
+    color: black;
+    border: 1px solid red;
+}
+
+/* list-item st */
+.list {
+    background-color: #fff;
+    padding: 20px 0px 75px 0px;
+}
+
+.list h1 {
+    margin-bottom: 20px;
+}
+
+/* .list-item {} */
+
+.list-item .ol {
+    width: 330px;
+    display: inline-block;
+    list-style-position: inside;
+    list-style-type: lower-roman;
+
+}
+
+.list-item ul {
+    width: 330px;
+    display: inline-block;
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+.list-item .pp {
+    width: 330px;
+    display: inline-block;
+    list-style-position: inside;
+    list-style-type: lower-greek;
+}
+
+
+
+/* list-item end */
+
+/* footer st */
+.footer-item {
+    background-color: #000000;
+    padding: 60px 0px;
+}
+
+.footer-item h1 {
+    font-size: 25px;
+    color: #fff;
+}
+
+.footer-item ul {
+    list-style: none;
+    margin-top: 25px;
+}
+
+.footer-item ul li {
+    display: inline-block;
+
+}
+
+.footer-item ul li a {
+    color: black;
+    background: #5EA5FA;
+    font-size: 30px;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    margin: 0 10px 0 5px;
+    line-height: 38px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: .3s;
+}
+
+.footer-item ul li a:hover {
+    background-color: #fff;
+}
+
+
+
+
+
+/* footer en */
