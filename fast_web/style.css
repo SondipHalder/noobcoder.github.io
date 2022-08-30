@@ -1,0 +1,211 @@
+/* deful code */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* main div class */
+.full-web{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+/* header part */
+.header-part{
+    background-color: #34495E;
+    padding: 60px 0;
+}
+/* manu part */
+.manu{}
+/* list/manu bar */
+.manu ul{
+    list-style: none;
+}
+/* manu bar li */
+.manu ul li{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/* manu bar css a */
+.manu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 5px 10px;
+    transition: .5s;
+}
+.manu ul li a:hover{
+    color: red;
+}
+/* bar css here
+ */
+.bar{
+    height: 20px;
+    width: 5px;
+    background-color: #fff;
+    margin: auto;
+}
+/* star part */
+.manu ul li b{
+    width: 5px;
+    margin: auto;
+    display: inline-block;
+    color: orange;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+/* service st */
+.service_contant{
+    width: 100%;
+    background-color: #E1E1E1;
+    padding: 30px 0px;
+    color: #3C5E3C;
+
+}
+.service_contant h1{
+    font-weight: 600;
+    border-bottom: 4px dashed #3C5E3C;
+}
+/* service en */
+.Web-desine {
+    width: 25%;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin: 40px 18px;
+    box-shadow: 0px 2px 5px 5px black;
+    transition: .5s;
+    box-sizing: content-box;
+    
+}
+
+.Web-desine:hover{
+    background-color: #3496DF;
+}
+.Web-desine span{
+    font-size: 85px;
+}
+.Web-desine h3{
+    color: #6E3434;
+}
+/* from part */
+.from{
+    padding: 100px 0px;
+    background-color: #9B59B6;
+    position: relative;
+}
+/* box */
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: #34495E;
+    border: 4px dotted #CD7439;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+.img1{
+background-image: url(https://i.ibb.co/pRkjjVW/jillur.jpg);
+height: 100px;
+width: 100px;
+background-size: cover;
+border-radius: 50%;
+margin: auto;
+position: relative;
+
+}
+.one{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: rgba(112, 182, 71, 0.6);
+    height: 0px;
+    width: 0px;
+    
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 50%;
+    transition: .5s;
+}
+.one h2{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #fff;
+}
+.box1:hover .one{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+
+}
+.o {
+    position: absolute;
+    top: 60px;
+    right: 700px;
+}
+.two {
+    position: absolute;
+    top: 184px;
+    right: 300px;
+}
+.three {
+    position: absolute;
+    top: 171px;
+    right: 820px;
+}
+.four {
+    position: absolute;
+    top: 60px;
+    right: 430px;
+}
+.contant{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    visibility: hidden;
+    opacity: 0;
+    height: 0px;
+    width: 0px;
+    border-radius: 50%;
+    background: rgba(57, 51, 51, 0.34);
+    transition: .7s;
+
+}
+.contant p{
+    font-size: 15px;
+    padding: 40px 0px;
+}
+.img1:hover .contant{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+input{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0px 10px;
+    border-radius: 20px;
+    
+}
+input:first-child{
+    margin-top: 50px;
+}
+.btn{
+    background-color: #9B59B6;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: .9s;
+}
+.btn:hover{
+    background-color: #fff;
+}
+/* footer part */
+.footer{
+    color: #fff;
+    background-color: #2C3E50;
+    padding: 20px;
+}
